@@ -9,3 +9,5 @@ public/build/*
 !public/build/.gitkeep
 .vercel/
 .idea/
+
+.vercel
