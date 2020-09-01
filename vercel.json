@@ -1,6 +1,9 @@
 {
   "routes": [
     {
+      "handle": "filesystem"
+    },
+    {
       "src": "/git",
       "status": 301,
       "headers": {
