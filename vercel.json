@@ -1,21 +1,21 @@
 {
-  "redirects": [
-    {
-      "source": "/git",
-      "destination": "https://github.com/useverto"
-    },
-    {
-      "source": "/chat",
-      "destination": "https://discord.gg/RnWbc8Y"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/"
-    }
-  ],
   "routes": [
     {
       "handle": "filesystem"
+    },
+    {
+      "src": "/git",
+      "status": 301,
+      "headers": {
+        "Location": "https://github.com/useverto"
+      }
+    },
+    {
+      "src": "/chat",
+      "status": 301,
+      "headers": {
+        "Location": "https://discord.gg/RnWbc8Y"
+      }
     },
     {
       "src": "/.*",
