@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/git",
+      "destination": "https://github.com/useverto"
+    },
+    {
+      "source": "/chat",
+      "destination": "https://discord.gg/RnWbc8Y"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
