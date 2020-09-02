@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy --entry '/ trade tokens post login gallery app 404 app/all-exchanges app/all-transactions'",
+    "export": "sapper export --legacy --entry '/ 404'",
     "validate": "svelte-check",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "arweave": "^1.9.1",
-    "community-js": "^1.0.9",
+    "community-js": "^1.0.12",
     "compression": "^1.7.1",
     "moment": "^2.27.0",
     "polka": "next",
     "sirv": "^0.4.0",
-    "smartweave": "https://arweave.net/AM-u4X2po-3Tx7fma3lRonCfLwrjI42IALwDL_YFXBs",
+    "smartweave": "https://arweave.net/QKWySKiNimiOU7taGjuh3eLCESmcbBO9A8iNw8FdUFc",
     "svelte-chartjs": "^1.0.1"
   },
   "devDependencies": {

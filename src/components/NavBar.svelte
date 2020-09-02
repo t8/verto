@@ -45,8 +45,8 @@
       <a href="/tokens">Tokens</a>
       <a href="/" on:click={_logOut}>Sign Out</a>
     {:else}
-      <a href="/">Home</a>
-      <a href="/login">Sign In</a>
+      <!-- <a href="/">Home</a>
+      <a href="/login">Sign In</a> -->
     {/if}
   </div>
 </div>
